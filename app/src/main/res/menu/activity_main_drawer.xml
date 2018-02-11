@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemSession"
+            android:icon="@drawable/login"
+            android:title="Sessión" />
+        <item
+            android:id="@+id/itemFuncionarios"
+            android:icon="@drawable/hombre"
+            android:title="Funcionarios" />
+        <item
+            android:id="@+id/itemRegistrar"
+            android:icon="@drawable/reloj"
+            android:title="Registrar" />
+        <item
+            android:id="@+id/itemConsultar"
+            android:icon="@drawable/lista"
+            android:title="Consultar" />
+    </group>
+
+    <item android:title="Otras Opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
